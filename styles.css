@@ -1,0 +1,148 @@
+/* <style> */
+   body {
+
+    font-family: 'Arial', sans-serif;
+    font-style: italic;
+    background-color: #ffffff; /* White background for the entire page */
+    color: #f6eded;
+    color: #00796b;
+    text-align: center;
+    margin: 20px;
+}
+
+.container {
+    
+
+    width: 80%;
+    margin: auto;
+    background-color: #ffffff; /* White background for the container */
+    padding: 20px;
+    border: 1px solid #00796b;
+}
+
+h1 {
+
+    color: #00796b;
+    text-align: center;
+}
+
+p {
+   
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.box {
+    
+    background-color: #ffffff; /* White background for each box */
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #00796b;
+}
+.box-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Custom shadow effect */
+    border-radius: 10px; /* Optional: rounds the corners */
+}
+
+
+.photo-box {
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* .photo {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+} */
+.photo {
+    /* max-width: 200%; */
+    width: 300px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border: 1px solid #ddd;
+}
+
+.col-md-4 {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.btn-primary {
+    background-color: #f8fbf8;
+    border-color: #00796b;
+    color: #00796b;
+    }
+
+.btn-primary:hover {
+    background-color: #00796b;
+    border-color: #00796b;
+    }
+
+.navbar-light .navbar-nav .nav-link {
+        color: #4a4a4a;
+        }
+.navbar-light .navbar-nav .nav-link:hover {
+        color: #00796b;
+        }
+
+        @media (max-width: 768px) {
+            .navbar-brand {
+            font-size: 18px;
+            }
+            .nav-link {
+            font-size: 14px;
+            }
+            }
+/* .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    } */
+
+    .card {
+        transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
+    }
+    
+    .card:hover {
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    }
+    .custom-navbar {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Custom shadow effect */
+    }
+/* </style> */
+
+
+.carousel {
+    max-width: 800px; /* Set your desired max width */
+    margin: auto; /* Center the carousel */
+}
+
+/* .carousel img {
+    max-height: 400px; 
+    object-fit: cover; 
+} */
+
+.carousel img {
+   /* Make images responsive */
+    max-height: 400px; /* Limit height */
+    object-fit: cover; /* Cover the area without distortion */
+}
+
+.carousel-box {
+    max-width: 800px; /* Set your desired max width */
+    margin: auto; /* Center the box */
+    padding: 20px; /* Add some padding */
+    border: 2px solid #00796b; /* Box border color */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #ffffff; /* Background color for the box */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.carousel-box:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
